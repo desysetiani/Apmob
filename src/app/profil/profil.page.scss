@@ -1,0 +1,46 @@
+ion-avatar {
+    width: 200px;
+    height: 230px;
+    display: block;
+    margin: 0 auto; // Set margin to auto to center the element horizontally
+    padding-top: 30px;
+  }
+  
+  ion-card {
+    ion-avatar {
+      margin: 0 auto; // Center the avatar within the card
+    }
+  }
+  
+  ion-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+  }
+  
+
+    ion-card {
+      ion-avatar {
+        margin: 0 auto; // Center the avatar within the content
+      }
+    }
+  
+    ion-card-content {
+        ion-card-title {
+          &.ion-text-center {
+            text-align: center;
+          }
+        }
+      
+        ion-item {
+          display: flex;
+      
+          ion-icon {
+            margin-left: 520px;
+            margin-right: 8px; // Sesuaikan margin antara ikon dan label
+            display: flex;
+          }
+        }
+      }
